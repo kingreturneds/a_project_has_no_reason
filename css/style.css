@@ -1,7 +1,7 @@
 *{
     padding: 0%;
-   margin:  0%;
-    overflow-x: hidden;
+     margin:  0%;
+
   
 }
 body{
@@ -9,9 +9,7 @@ body{
  
 }
 .container_head{  
-    overflow-y:scroll;
-    scroll-snap-type: y mandatory;
- 
+    scroll-snap-type: y proximity;
 }
 .head_1{
     scroll-snap-align: start;
@@ -19,13 +17,14 @@ body{
     background-image: url(../photo/many_dear.jpg);
     background-repeat:no-repeat;
     background-size:100% 100vh;
+  
 }
 .head_2{
     padding-bottom: 100vh;
     background-image: url(../photo/1369307.png);
     background-repeat:no-repeat;
     background-size:100% 100vh;
-   
+  
     }
 .head_3{
         padding-bottom: 100vh;
