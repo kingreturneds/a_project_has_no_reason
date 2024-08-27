@@ -4,7 +4,7 @@
     overflow-y:hidden;
 }
 body{
-   background-color: rgb(175, 176, 177);
+   background-color: rgb(136, 136, 136);
   
 }
 .container_head{  
@@ -14,7 +14,19 @@ body{
     position: relative;
    
 }
+::-webkit-scrollbar{
+    width: 10px;
+    
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(1, 2, 3);
+    border-radius: 10px;
+}
 .head_1{
+   
     scroll-snap-align: start;
     padding-bottom: 100vh;
     background-image: url(../photo/many_dear.jpg);
@@ -31,7 +43,7 @@ body{
 .head_2>h1{
     display: grid;
     place-content: center;
-    margin: 20px;
+    
     padding: 10px;
 }
 #nun_1{
