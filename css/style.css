@@ -7,17 +7,20 @@ body{
    height: 100%;
 }
 .container_head{  
-    position: relative;
-    background-image: url(../photo/many_dear.jpg);
-    background-repeat:no-repeat;
-    background-size:100% 100vh;
+   
+   
 }
 .head_1{
 padding-bottom: 100vh;
+background-image: url(../photo/many_dear.jpg);
+background-repeat:no-repeat;
+background-size:100% 100vh;
 }
 .head_2{
     padding-bottom: 100vh;
     background-image: url(../photo/1369307.png);
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
     }
 .head_3{
         padding-bottom: 100vh;
