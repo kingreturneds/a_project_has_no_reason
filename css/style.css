@@ -1,7 +1,8 @@
 *{
     padding: 0%;
    margin:  0%;
-   
+    overflow-x: hidden;
+  
 }
 body{
    background-color: rgb(175, 176, 177);
@@ -9,10 +10,11 @@ body{
 }
 .container_head{  
     overflow-y:scroll;
-    scroll-snap-type:y mandatory;
+    scroll-snap-type: y mandatory;
+ 
 }
 .head_1{
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     padding-bottom: 100vh;
     background-image: url(../photo/many_dear.jpg);
     background-repeat:no-repeat;
