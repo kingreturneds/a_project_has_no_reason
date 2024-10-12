@@ -53,11 +53,12 @@ body{
 }
 #nun_1{
   /* ahhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+  margin-top: 1rem;
 }
 #id_1{
-    padding-top: 10px;
-    margin: 20px;
-  
+    display:flexbox ;
+    margin: 2rem;
+    font-size: 2rem;
 }
 .head_3{
     scroll-snap-align: start;
